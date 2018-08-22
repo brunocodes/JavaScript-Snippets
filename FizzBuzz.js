@@ -1,4 +1,4 @@
-/* By twitter.com/brun0_batista
+/* 											By twitter.com/brun0_batista
 FizzBuzz
 */
 // If a number is divisible by 3 Fizz
@@ -15,12 +15,7 @@ for (let i = 0; i <= 100; i++) { // for loop starts at 0 goes to 100
 		}
 	}
 
-
-/* you could shorten the first if statement boolean expression as follows:
-i % 3 == 0 && i % 3 == 5 is exactly the same as i % 15 == 0
-What that means is that anything divisible by both 3 and 5 must be divisible by their product, which is 3 x 5 = 15 */
-
-// You can sherten the if statement by using ****** instead
-i % 3 == 0 && i % 5 == 0 ? console.log('FizzBuzz'+" "+ i):
-i % 3 == 0 ? console.log('Fizz'+" "+ i) :
-i % 5 == 0 ? console.log('Buzz'+" "+ i)
+// You can sherten the if statement by using ternary operator instead
+for(i=1; i<=100; i++) {
+console.log(((i%3)?(i%5)?i:'Buzz':(i%5)?'Fizz':'FizzBuzz'));
+};
