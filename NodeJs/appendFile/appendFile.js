@@ -22,5 +22,4 @@ readAppend(file, appendFile);
 Q: is there any way in which the header row does not duplicate in the final merged file.
 Good question, I don't recall off the top of my head. However, you can call a function to delete the top row from a file before appending, by calling:     
 document.getElementById("myTable").deleteRow(0);          
-Be glad to look more into it if this doesn't solve your problem!﻿
 */
