@@ -27,25 +27,6 @@ const userSchecma = new Schema({
 // *-------------------------------*
 
 // My App user
-const userSchecma2 = new Schema({
-    name: String,
-    address: {
-        line1: String,
-        line2: String,
-        city: String,
-        state: String,
-        zip: Number,
-    },
-    cart:{
-        type: userCartSchecma,
-        default: {
-            items: [],
-            status: "Active"
-        }
-    },
-    orderHistory: [ {type: Schema.Types.ObjectId, ref: 'Cart'} ]
-});
-
 const settingsSchecma = new Schema({
     bot_enable: Boolean,
     dark_mode: Boolean,
@@ -84,4 +65,21 @@ const TwitchUserSchema = new Schema({
             email_notification: true,
         }        
     }    
+});
+TwitchUser = mongoose.model('TwitchUser', TwitchUserSchema);
+
+// *----------------*
+//  Adding new field to existing document in mongodb through updateOne
+
+// new fields needs to be in schema
+const userSchema = new Schema({
+    username: String,
+    age:  Number,  
+});
+const User = mongoose.model('wikinames', userSchema);
+User.updateOne(
+    { username: "bob" },
+    {  age: 30 }, 
+    { upsert:true }, 
+        function(err, numberAffected){
 });
