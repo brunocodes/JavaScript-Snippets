@@ -1,0 +1,16 @@
+[2021-02-03T04:27:07.454] [INFO] logs - Cheese is Comté.
+[2021-02-03T04:27:07.457] [INFO] logs - Added new monitor. {
+  userID: '1010101010',
+  test_field: 101010,
+  req_field: { test_field: 101010, test_field2: 'This is String' }
+}
+[2021-02-03T04:28:33.869] [INFO] logs - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 11 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0"
+[2021-02-03T04:28:34.263] [ERROR] logs - ::ffff:127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0"
+[2021-02-03T04:29:09.651] [WARN] logs - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0"
+[2021-02-03T04:53:29.165] [INFO] logs - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 11 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0"
+[2021-02-03T04:53:29.454] [ERROR] logs - undefined - - "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0"
+[2021-02-03T04:54:58.603] [INFO] logs - ::ffff:127.0.0.1 - - "GET / HTTP/1.1" 200 11 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0"
+[2021-02-03T04:56:47.317] [ERROR] logs - ::ffff:127.0.0.1 - - "GET /* HTTP/1.1" 404 140 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0"
+[2021-02-03T05:05:04.623] [ERROR] logs - ::ffff:127.0.0.1 - - "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0"
+[2021-02-03T05:05:41.092] [ERROR] logs - ::ffff:127.0.0.1 - - "GET /nothere HTTP/1.1" 404 146 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0"
+[2021-02-03T05:08:36.524] [ERROR] logs - ::ffff:127.0.0.1 - - "GET /ksdks HTTP/1.1" 404 144 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0"

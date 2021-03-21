@@ -17,9 +17,6 @@ function showWord(words) {
 }
 
 
-
-
-
 //// origin:  codecadamy classes sectiom
 class Animal {
   constructor(name) {
@@ -33,7 +30,3 @@ class Animal {
     return names[randomNumber];
   }
 }
-// random password
-static generatePassword() [
-    const randomNumber = Math.floor(Math.random()* 10000);
-    return randomNumber;

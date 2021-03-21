@@ -1,0 +1,10 @@
+[2021-02-03T12:06:44.717] [INFO] http - ::ffff:127.0.0.1 - undefined - "POST /addlog HTTP/1.1" 200 17 "" "curl/7.58.0" {"name":"Bud"}
+[2021-02-03T12:10:28.873] [INFO] http - ::ffff:127.0.0.1 - undefined - "GET / HTTP/1.1" 200 11 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" {}
+[2021-02-03T12:10:29.138] [ERROR] http - ::ffff:127.0.0.1 - undefined - "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" {}
+[2021-02-03T12:14:09.188] [ERROR] http - ::ffff:127.0.0.1 - undefined - "GET /test HTTP/1.1" 404 143 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" {}
+[2021-02-03T12:14:19.551] [ERROR] http - ::ffff:127.0.0.1 - undefined - "GET /addlog HTTP/1.1" 404 145 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" {}
+[2021-02-03T12:14:58.961] [WARN] http - ::ffff:127.0.0.1 - undefined - "GET / HTTP/1.1" 304 - "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" {}
+[2021-02-03T12:17:18.952] [INFO] http - ::ffff:127.0.0.1 - undefined - "POST /addlog HTTP/1.1" 200 17 "" "curl/7.58.0" {"name":"Bud"}
+[2021-02-03T13:43:18.356] [INFO] http - ::ffff:127.0.0.1 - undefined - "GET / HTTP/1.1" 200 11 "" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" {}
+[2021-02-03T13:43:18.614] [ERROR] http - ::ffff:127.0.0.1 - undefined - "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:5000/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:85.0) Gecko/20100101 Firefox/85.0" {}
+[2021-02-03T13:44:59.125] [INFO] http - ::ffff:127.0.0.1 - undefined - "POST /addlog HTTP/1.1" 200 17 "" "curl/7.58.0" {"name":"Bud"}

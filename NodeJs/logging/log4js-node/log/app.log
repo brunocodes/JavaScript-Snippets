@@ -1,0 +1,22 @@
+[2021-02-03T12:06:17.292] [INFO] app - Added new monitor. {
+  userID: '6969101010',
+  test_field: 101010,
+  req_field: { test_field: 101010, test_field2: 'This is String' }
+}
+[2021-02-03T12:06:17.296] [ERROR] errors - Error added new monitor. {
+  userID: '6969101010',
+  test_field: 101010,
+  req_field: { test_field: 101010, test_field2: 'This is String' },
+  error_trace: { test_field: 101010, test_field2: 'This is String' }
+}
+[2021-02-03T13:42:55.641] [INFO] app - Added new monitor. {
+  userID: '6969101010',
+  test_field: 101010,
+  req_field: { test_field: 101010, test_field2: 'This is String' }
+}
+[2021-02-03T13:42:55.645] [ERROR] errors - Error added new monitor. {
+  userID: '6969101010',
+  test_field: 101010,
+  req_field: { test_field: 101010, test_field2: 'This is String' },
+  error_trace: { test_field: 101010, test_field2: 'This is String' }
+}
